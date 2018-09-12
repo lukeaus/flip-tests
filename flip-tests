@@ -147,7 +147,7 @@ parse_commandline "$@"
 flip()
 {
   # Allow paths with and without spaces
-  rg "$1" -l | sed 's/.*/"&"/'| xargs -L 1 sed -i '' "$2"
+  rg "$1" -l | sed 's/.*/"&"/'| xargs -L 1 sed -i '' "$2" || true
 }
 
 x_to_default()
