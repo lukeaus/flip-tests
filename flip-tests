@@ -43,7 +43,7 @@ _arg_all_to_default=false
 print_help ()
 {
 	printf '%s\n' "Flip javascript tests between only <--> disabled <--> default <--> only"
-    printf '\n'
+  printf '\n'
 	printf 'Usage: %s [OPTIONS]\n' "$0"
 	printf '\t%s\n' "-ox,--only_to_x"
 	printf '\t\t%s\n' "flip tests describe.only and it.only --> xdescribe and xit"
