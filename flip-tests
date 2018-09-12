@@ -33,7 +33,7 @@ begins_with_short_option()
 }
 
 _PRINT_HELP=false
-VERSION=0.1
+VERSION=0.1.1
 _arg_only_to_x=false
 _arg_x_to_only=false
 _arg_only_to_default=false
