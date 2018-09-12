@@ -46,6 +46,8 @@ Works with mocha, jasmine, jest and any other test runner that uses `describe` a
 
 1.  Get flip-tests
 
+Go to releases --> download source or
+
 ```
 git clone https://github.com/lukeaus/flip-tests.git
 ```
